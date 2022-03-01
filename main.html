@@ -1,141 +1,123 @@
 <!DOCTYPE html>
-<html lang="jp">
-
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>Kimura Takako Portfolio</title>
-  <meta name="author" content="Adtile">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="common/css/styles.css">
-  <link rel="stylesheet" href="common/css/my.css">
-  <!--==============faviconを読み込み===============-->
-    <link rel="icon" type="image/x-icon" href="common/image/favicon.ico">
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <link rel="stylesheet" href="css/ie.css">
-    <![endif]-->
-  <script src="common/js/responsive-nav.js"></script>
+<meta charset="utf-8">
+<title>wave</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+<link rel="stylesheet" type="text/css" href="/common/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/common/css/wave.css">
+<link rel="stylesheet" href="common/css/styles.css">
+<link rel="stylesheet" href="common/css/my.css">
+<!--==============faviconを読み込み===============-->
+<link rel="icon" type="image/x-icon" href="common/image/favicon.ico">
 </head>
 
 <body>
-
-  <header>
-    <a href="#home" class="logo" data-scroll>Kimura Takako Portfolio</a>
+<header>
+    <a href="/index.html" class="logo" data-scroll>Kimura Takako Portfolio</a>
     <nav class="nav-collapse">
-      <ul>
-        <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+        <ul>
         <li class="menu-item"><a href="#about" data-scroll>About</a></li>
         <li class="menu-item"><a href="#Works" data-scroll>Works</a></li>
-        <li class="menu-item"><a href="#">Study</a></li>
+        <li class="menu-item"><a href="#Study">Study</a></li>
         <li class="menu-item"><a href="#Contact" data-scroll>Contact</a></li>
-      </ul>
+        </ul>
     </nav>
-  </header>
+</header>
+<div id="wrapper">
+    <section id="Top">  </section>
+        <!--== About ==-->
+        <section id="about">
+            <h2>About</h2>
+                <div class="wave">
+                    <div class="main">
+                        <p><strong>私について ～ Off ～</strong><br>
+                            学生時代より、ボランティア活動を継続しておこなっています。
+                            社会人になって、より幅広い活動をおこなう中で支援を受けられる方に対して安心して楽しんで
+                            過ごしていただくためにはどうすればよいのか、少しでも理解したいと思い介護福祉士の資格を取得いたしました。<br>
 
-  <!--== Home ==-->
-  <section id="home">
-    <h1>Kimura Takako Portfolio</h1>
-    <div class="main">
-      <table class="tbl01" align="center">
-        <tr>
-          <td align="left">
-            <P>ご訪問いただきありがとうございます。</br>このページは、私についての振り返りや今後の活動展望についてご紹介させていただきます。</P>
-          </td>
-        </tr>
-        <tr>
-          <td align="left">
-            <p>夜空で光る月のように弱い光ではありますが、困っている方を照らすことができる存在になれるように、現在技能習得中です。</p>
-            <p>今まで社内SE業務を通じて、ユーザーサポートをおこなってきました。今後も、現場の業務に寄り添ったサポートをおこないたいと考えています。</p>
-          </td>
-        </tr>
-      </table>
-      <img class="ma" margin=20,0 src="common/image/top_img.png" alt="輝く月と方位磁石">
-    </div>
+                            実際の活動内容としては多岐に及びますが、好評なのは夏の屋外活動でのバーベキューやプール・海水浴。
+                            冬はそり滑りや宝探しゲームなどです。写真でお見せできないことが残念ですが、本当に皆さん楽しまれています。<br>
 
-  </section>
+                            ここでの活動は、「私について ～ On ～」の活動をおこなうにあたってとても活かされています。<br>
 
-  <!--== About ==-->
-  <section id="about">
-    <h1>About</h1>
-    <div class="main">
-      <table class="tbl01" align="center">
-        <tr>
-          <td align="left">
-            <p><strong>いまとこれからの目標について</strong></p>
-            <ul class="ulabout">
-              <li>IT知識だけではなく、英語スキルも求められることが多くなった。<br>=英語がとても苦手なため現在TOEIC500点を目指しています。=</li>
-              <li>Java Silver・基本情報技術者試験に向けて、コツコツ学習中。</li>
-              <li>基本情報技術者試験、春期試験にて取得予定。Java Silverもあわせて取得予定です</li>
-              <li>自分に自信をつけて、社会貢献できる人材として頑張りたいです。</li>
-              <li>周囲の方をハッピーに!スムーズに業務がおこなえるようにサポートすることが目標です。</li>
-            </ul>  
-          </td>
-        </tr>
-        <tr>
-          <td align="senter">
-          </td>
-        </tr>
-      </table>
-      <a href="#home">Homeへ戻る</a>
-      <div class="slideBox">
-        <img class="item1" src="common/image/img1_english.png" alt="英語が話せない様子">
-        <img class="item1" src="common/image/img2_stady.png" alt="学習している様子">
-        <img class="item1" src="common/image/img3_gokaku.png" alt="合格">
-        <img class="item1" src="common/image/img4_job.png" alt="就職">
-        <img class="item1" src="common/image/img5_emp.png" alt="誰かをハッピーにさせている様子">
-      </div>
-          </div>
-      </section>
+                            また、趣味として手芸(棒針編み)や料理・お菓子作りなどが好きです。最近は活動できていませんがジョギング
+                            をしています。小豆島マラソンや熊本マラソンに参加させていただきました。
+                        </p>
+                        <a href="#Top">Topへ戻る</a>
+                        <canvas id="waveCanvas"></canvas>
+                    </div>
+                </div>
+        </section>
+  
+        <!--== Works ==-->
+        <section id="Works">
+            <h2>Works</h2>
+                <div class="wave">
+                    <div class="main">
+                        <p><strong>私について ～ On ～</strong><br>
+                            仕事をおこなう上で心掛けていることは、一旦は話を聞いて受け入れること。現状対応ができないことも
+                            代替案を出せる引き出しを準備しておくことが大事だと考えています。<br>
+                            
+                            あるシステム導入をさせていただいた際、現場の方の業務を把握することに1か月ほど時間をいただきました。
+                            長いと感じられるかもしれませんが、結果としてシステム導入に留まらずツールの提供や部門マニュアル・
+                            イントラネットの公開もあわせておこなえたことは非常に良かったです。<br>
 
-  <!--== Works ==-->
-  <section id="Works">
-    <h1>Works</h1>
-    <!--<h2>学歴・職歴</h2>-->
-    <div class="main">
-      <table class="tbl01" align="center">
-        <tr>
-          <th>学歴・職歴</th>
-          <td>高等学校卒業後、金融機関勤務 / 税理士事務所<br>制御機器メーカー / 不動産会社<br>京都職業能力開発センター IT生産サポート課入所</td>
-        </tr>
-        <tr>
-          <th>取得資格</th>
-          <td>日本商工会議所主催 簿記検定３級合格<br>
-            普通自動車第１種免許取得<br>
-            Microsoft Office Specialist Excel 合格<br>
-            大阪府移動支援従事者研修養成講座課程修了<br>
-            訪問介護員養成研修２級課程修了<br>
-            相談支援従事者初任者研修修了<br>
-            介護福祉士実務者研修課程修了<br>
-            一般社団法人日本人材育成協会主催 2級労務管理士合格<br>
-            厚生労働大臣 介護福祉士合格<br>
-            ITパスポート合格</td>
-        </tr>
-        <tr>
-          <th>現在資格取得に向けて</th>
-          <td>基本情報技術者試験(FE)取得に向けて学習中</td>
-        </tr>
-        <tr>
-          <th>今後の就業目標</th>
-          <td>社内SE・サポートデスクを目指しています。</td>
-        </tr>
-      </table>
-      <a href="#home">Homeへ戻る</a>
-    </div>
-  </section>
+                            サポート業務は、誰かの役に立てた時がやりがいを感じる時でもありますが、自己向上ができることも大きな喜びです。
+                            ITスキルに留まらず、人として頼られるような人材になりたいと考えます。<br>
+                            
+                            潤滑油のような存在になることで、会社に貢献していきます。
 
-  <!--== Contact ==-->
-  <section id="Contact">
-    <h1>Contact</h1>
-    <p><a href="/kihon.html" target="_blank">@secret</a></p>
-    <a href="#home">Homeへ戻る</a>
-  </div>
-   
-  </section>
+                        </p>
+                        <a href="#Top">Topへ戻る</a>
+                        <canvas id="waveCanvas2"></canvas>
+                    </div>
+                </div>
+        </section>
 
-  <script src="common/js/fastclick.js"></script>
-  <script src="common/js/scroll.js"></script>
-  <script src="common/js/fixed-responsive-nav.js"></script>
+<!--== Study ==-->
+<section id="Study">
+    <h2>Study</h2>
+        <div class="wave">
+            <div class="main">
+                <p><strong>Study ～ 自己研鑽 ～</strong><br>
+                    2001年11月より「京都職業能力開発促進センター（ポリテクセンター京都）」内のIT生産サポート課にて
+                    HTML / CSS / Javascript / データベース / PHP / JAVA / を習得中です。
+                    春期試験合格に向けて、現在 基本情報技術者試験ならびにJavaSilverの資格取得を目指しています。
+                    これまでの経験の中で、開発者の方によりスムーズに現場との橋渡しをしたいと考えていたことが取得理由の一つです。
 
+                    また、英語が非常に苦手なのですが、やっぱりこのままではいけない!と
+                    <a href="https://www.duolingo.com/" target="_blank">duolingo</a>にて少しずつ習得中です。<br><br>
+                    
+                    【取得資格】<br>
+                    日本商工会議所主催 簿記検定３級合格 / 普通自動車第１種免許取得 / Microsoft Office Specialist Excel 合格
+                    大阪府移動支援従事者研修養成講座課程修了 / 訪問介護員養成研修２級課程修了 / 相談支援従事者初任者研修修了
+                    介護福祉士実務者研修課程修了 / 一般社団法人日本人材育成協会主催 2級労務管理士合格 / 厚生労働大臣 介護福祉士合格
+                    ITパスポート合格
+                </p>
+                <a href="#Top">Topへ戻る</a>
+                <canvas id="waveCanvas3"></canvas>
+            </div>
+        </div>
+</section>
+
+<!--== Contact ==-->
+<section id="Contact">
+    <h2>Contact</h2>
+        <div class="wave">
+            <div class="main">
+                <p><strong>Contact</strong><br>
+                    ご連絡は、こちらのメールアドレスへお願いいたします。<br>
+                    chiffon_chan71@yahoo.co.jp
+                </p>
+                <a href="#Top">Topへ戻る</a>
+                <canvas id="waveCanvas4"></canvas>
+            </div>
+        </div>
+</section>
+
+<!--/wrapper--></div>
+<script src="/common/js/wave.js"></script>
 </body>
-
 </html>
