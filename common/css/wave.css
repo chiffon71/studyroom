@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*========= レイアウトのためのCSS ===============*/
+
+#wrapper p{
+  padding:30px 0px 300px;
+  text-align:left;
+}
+
+/*========= waveを描画するエリア設定 ===============*/
+
+
+.wave{
+    position: relative;
+  }
+  
+  .wave:nth-child(1){
+    background:#fff;  
+  }
+  
+  .wave:nth-child(2){
+    background:#eee;  
+  }
+  
+  .wave:nth-child(3){
+    background:#FFF; 
+  }
+  
+  .wave:nth-child(4){
+    background:#eee; 
+  }
+
+.wave canvas{
+    position: absolute;
+    bottom: 0;
+  left:0;
+    width: 100%;
+}
